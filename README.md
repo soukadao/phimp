@@ -22,11 +22,11 @@ Test files (`*.test.*`, `*.spec.*`) and `node_modules`, `dist`, `.git`, `coverag
 
 ### Options
 
-| Option | Description |
-|---|---|
-| `--json` | Output results as JSON |
-| `-V, --version` | Show version |
-| `-h, --help` | Show help |
+| Option          | Description            |
+| --------------- | ---------------------- |
+| `--json`        | Output results as JSON |
+| `-V, --version` | Show version           |
+| `-h, --help`    | Show help              |
 
 ### Examples
 
@@ -43,10 +43,10 @@ phimp --json
 
 ### Exit codes
 
-| Code | Meaning |
-|---|---|
-| `0` | No phantom imports found |
-| `1` | Phantom imports detected |
+| Code | Meaning                  |
+| ---- | ------------------------ |
+| `0`  | No phantom imports found |
+| `1`  | Phantom imports detected |
 
 ## JSON output format
 

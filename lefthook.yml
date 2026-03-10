@@ -5,8 +5,8 @@ pre-commit:
       staged_files: true
     - name: "lint fix"
       glob: "**/*.{ts}"
-      staged_files: true
       run: bun run lint
+      staged_files: true
     - name: "unit test"
       glob: "src/**/*.{ts}"
       run: bun run test
