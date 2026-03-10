@@ -1,11 +1,14 @@
 {
-  "name": "cli-ts-template",
+  "name": "phimp",
   "version": "0.0.1",
-  "description": "cli template",
+  "description": "Detect phantom (hallucinated) imports in JS/TS projects",
   "type": "module",
   "main": "dist/cli.js",
+  "bin": {
+    "phimp": "dist/cli.js"
+  },
   "scripts": {
-    "build": "bun run type && esbuild src/cli.ts --minify --sourcemap --format=esm --target=node22 --outfile=dist/cli.js",
+    "build": "bun run type && esbuild src/cli.ts --bundle --packages=external --minify --sourcemap --format=esm --target=node22 --outfile=dist/cli.js --banner:js='#!/usr/bin/env node'",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
     "lint": "oxlint",
