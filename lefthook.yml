@@ -1,6 +1,7 @@
 pre-commit:
   jobs:
     - name: "code format"
+      glob: "**/*.{ts,json,jsonc,md}"
       run: bun run fmt {staged_files}
       staged_files: true
     - name: "lint fix"

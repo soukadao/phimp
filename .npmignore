@@ -1,0 +1,21 @@
+# source
+src/
+
+# config
+.claude/
+.github/
+.gitignore
+.oxfmtrc.jsonc
+.oxlintrc.jsonc
+tsconfig.json
+vitest.config.ts
+lefthook.yml
+CLAUDE.md
+bun.lock
+
+# misc
+.DS_Store
+.idea
+.vscode
+.env
+.env.*
