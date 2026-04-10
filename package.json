@@ -21,7 +21,7 @@
     "commander": "^14.0.3"
   },
   "devDependencies": {
-    "@types/node": "^25.5.2",
+    "@types/node": "^25.6.0",
     "@vitest/coverage-v8": "^4.1.3",
     "esbuild": "^0.28.0",
     "lefthook": "^2.1.5",
